@@ -56,10 +56,12 @@ class App extends Component {
     }
 
     else {
-      this.setState({
+      if (this.state.result.length < 15)
+      {      this.setState({
         result: this.state.result + button
       })
     }
+  }
 
   };
   
