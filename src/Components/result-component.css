@@ -2,7 +2,7 @@
     text-align: center;
     color: black;
     font-size: 16px;
-    padding: 2px 2px;
-    border-color: black;
+    padding: 0.125em;
+    border: black solid;
     background-color: lightblue;
 }
